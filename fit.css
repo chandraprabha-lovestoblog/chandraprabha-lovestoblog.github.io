@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eee;
+
+    background-image: url("background.jfif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.banner-area {
+    /* width: 100%; */
+    /* height:100vh; */
+    /* background-image:url(background.jfif); */
+    /* background-attachment: fixed; */
+
+    /* background-size:cover; */
+    background-color: rgba(69, 69, 69, 0.596);
+
+    border-radius: 20px;
+
+    padding-bottom: 10px;
+
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.content-area {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+    font-family: 'Noto Serif Kannada', serif;
+}
+
+.content h1 {
+    margin-top: 20px;
+
+    font-size: 50px;
+    color: black;
+}
+
+.content p {
+    font-size: 30px;
+    color: black;
+}
+
+.content .btn {
+    display: inline-block;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    padding-top: 15px;
+    margin-top: 30px;
+    border-radius: 4px;
+    color: #eee;
+    font-size: 18px;
+    cursor: pointer;
+    background: #F44336;
+}
+
+.hassan-mummy{
+    border-radius: 50%;
+}
+
+.intro-btn{
+  margin-top: 10px;
+  font-size: larger;
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50px;
+}
+
+.intro-btn:hover, .intro-btn:active {
+    background-color: red;
+    color: white;
+  }
+
+.click-ins{
+    margin-top: 5px;
+    color: #f32148
+}
+
+
+.container {
+    width: 70%;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.offcanvas-bg{
+    background-color: #111;
+    padding-bottom: 400px;
+}
+
+.offcanvas-body{
+    margin: 0;
+}
+
+.offcanvas-link{
+    /* background-color: #04AA6D; */
+    margin: 0;
+    width: 100%;
+    /* padding-left: 10000px; */
+    padding-top: 18px;
+  /* padding: 8px 8px 8px 32px; */
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.offcanvas-link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: #f32148;
+    /* background-color: rebeccapurple; */
+    border-radius: 20px;
+    transform-origin: center;
+    transition: transform 0.5s ease-out;
+  }
+  
+  .offcanvas-link:hover:after {
+    transform: scaleX(1);
+    transform-origin: center;
+  }
+
+
+.offcanvas-link:hover{
+    color: #f32148;
+    font-size: 50px;
+}
+
+
+/* .btn1 {
+    display: inline-block;
+    border-radius: 12px;
+    background-color: #6804aa;
+
+    border: none;
+    color: white;
+    text-align: center;
+    width: 200px;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    margin-bottom: 10px;
+    margin-left: 20px;
+
+    font-size: 30px;
+} */
+
+#kar {
+    background-image: url("grad1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 5px 10px 18px #888888;
+    color: #000;
+
+}
+
+.all-links-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 10%;
+    margin-right: 10%;
+
+    font-family: 'Noto Serif Kannada', serif;
+}
+
+.places {
+    text-align: center;
+}
+
+.dropdownMenuButton1 {
+    width: 50px;
+    background-color: #04AA6D;
+
+}
+
+.dist-link {
+    text-decoration: none;
+    color: white;
+}
+
+.dist-link:hover {
+    color: white;
+}
+
+/* #row row-cols-1 row-cols-md-5 g-4 {
+    margin-bottom: 10px;
+} */
+
+#kkk {
+    margin-bottom: 30px;
+}
+
+.ggg{
+    text-decoration: none;
+    color: #000;
+}
